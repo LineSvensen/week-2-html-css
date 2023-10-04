@@ -1,0 +1,53 @@
+body {
+    background-image: url("assets/ilovepepsi.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+* {
+    font-family: 'Gabarito', cursive;
+}
+
+#first-heading { /*this is how you add a comment*/
+    color: #FF579F;
+    background-color: yellowgreen;
+    font-size: 72px;
+    width: 150px;
+    height: 200px;
+}
+#second-heading span {
+    color: red;
+    border-style: solid;
+    border-width: 8px;
+    border-color: lawngreen;
+    border-top-style: dashed;
+    border-right-color: #FBB13C;
+    border-radius: 20%;
+}
+#second-heading {
+    color: #80E9B7;
+}
+#third-heading {
+    color: #F2E94E;
+}
+
+.generic-heading {
+    font-size: 42px;
+    background-color: antiquewhite;
+}
+
+p {
+    font-weight: bold;
+    background-color: #FBB13C;
+}
+
+a {
+    font-size:64px;
+    border-style: solid;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+

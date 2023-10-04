@@ -1,0 +1,8 @@
+* {
+    font-family: 'Gabarito', cursive;
+}
+
+nav li {
+    display: inline-block;
+    font-weight: bold;
+}

@@ -7,6 +7,13 @@
     <meta name="description" content="Line Svensen's Portfolio - Front-End developer"/>
     <title>Lines Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+<!--    this is for the text. google fonts-->
+
+    <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
+
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon.ico"/>
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png"/>
@@ -37,6 +44,10 @@
             border-radius: 8px;
             font-size: 20px;
             font-family: "Century Gothic";
+        }
+        #orange-section {
+            background-color: #FBB13C;
+            border-radius: 8px;
         }
         #projects-heading {
 
@@ -89,8 +100,10 @@
     </header>
 
  <main>
-     <section id="about">
-         <h2 id="about-heading">About</h2>
+     <h2 id="about-heading">About</h2>
+    <section id="orange-section">
+     <section id="about" style="display: flex; justify-content: space-evenly">
+         <article>
          <p id="about-paragraph">
          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -98,7 +111,15 @@
          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
          </p>
+         </article>
+         <aside>
+             <img src="/assets/profilepicture.jpg" alt="Profile picture" width="303"; height="292" style="border-radius: 50%; margin-top: 40px; margin-right: 16px;">
+             <h2>Hello!</h2>
+             <p>Im currently studying front-end development. Follow my journey!</p>
+         </aside>
      </section>
+    </section>
+
      <hr>
      <section id="projects">
          <h2 id="projects-heading">Projects</h2>
