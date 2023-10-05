@@ -1,0 +1,19 @@
+body {
+    font-family: 'Young Serif', serif;
+}
+.banner {
+    position: relative;
+}
+.banner-image {
+height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-content {
+    position: absolute;
+    top: 40%;
+    color: yellow;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
