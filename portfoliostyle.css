@@ -9,6 +9,30 @@ html {
 nav li {
     display: inline-block;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link-about {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 24px;
+}
+.nav-link-projects {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 24px;
+}
+.nav-link-contact {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 24px;
 }
 
  header {
@@ -25,6 +49,9 @@ img {
     margin-top: 70px;
     margin-right: 70px;
 }
+a:hover {
+    color: black;
+}
 
 #about {
     display: flex;
@@ -34,7 +61,7 @@ img {
 
         background-color: #FF579F;
         color: white;
-        padding: 20px;
+        padding: 70px;
         border-radius: 8px;
         font-size: 32px;
         font-family: "Century Gothic";
